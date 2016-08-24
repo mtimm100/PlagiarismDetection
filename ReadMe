@@ -1,0 +1,16 @@
+Mikayla Timm
+
+This project compares files for similarity for detecting plagiarism. It utilizes a hash table structure that stores word phrases, where the phrase length is determined by the user at the beginning of the program. 
+It compares the content of two files by searching for matches in the hashtable for word phrases in the new file. It then creates an upper triangular matrix displaying the number of phrase matches found for each file pairing, showing the similarity score between all of the files in the "datafiles" folder.
+
+To run the program:
+Open a terminal in this directory
+copy and paste:
+gcc FileIO.c ComparingFilesTest.c Hash.c Node.c StringProcessing.c
+./a.out
+
+The program will then prompt for the phrase length then display the results.
+Default files are included in the "datafiles" folder for testing purposes, but can be changed to whatever files you wish to compare.
+
+
+
